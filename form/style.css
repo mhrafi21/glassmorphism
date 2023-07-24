@@ -1,0 +1,55 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(185, 75, 75);
+       transition:all 500ms ease;
+}
+.container form{
+    width:450px;
+    height:300px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    padding:3rem;
+    gap:0.7rem;
+ 
+}
+.container form input{
+    padding: 1rem;
+    outline:none;
+    border:none;
+    border-radius: 8px;
+    background:rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1) inset;
+ 
+}
+.container form input::placeholder{
+    color:white;
+}
+.container form span{
+    font-size:1.2rem;
+    display: flex;
+    gap:0.5rem;
+    color:white;
+}
+.container form [type="submit"]{
+    width:50%;
+    margin:0 auto;
+    margin-top:1rem;
+    color:white;
+    font-size: 1rem;
+    transition:all 500ms ease;
+    background: linear-gradient(90deg,red, white);
+}
+.container form [type="submit"]:hover{
+   transform:scale(1.1);
+}
