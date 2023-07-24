@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D5D9B;
+    transition:all 500ms ease;
+    color:rgb(207, 199, 199);
+}
+.container .card{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.2px);
+    -webkit-backdrop-filter: blur(4.2px);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+}
+.container .card div{
+    text-align: center;
+}
+body{
+    font-family: sans-serif;
+
+}
+.container .card img{
+    display: block;
+    margin:0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border:0.5rem solid rgba(0,0,0,0.1)
+
+}
+.follow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.follow button{
+    padding:0.4rem 1rem;
+    background-color: rgba(0,0,0,0.1);
+    border:none;
+    outline:none;
+     color:rgb(207, 199, 199);
+     border-radius: 1rem;
+     border: 1px solid #fff;
+}
+.title{
+    padding-top: 1rem;
+}
+.socials{
+    margin-top: 1rem;
+}
+.social-follow{
+    margin-top: 2rem;
+    margin-left: 0.8rem;
+}
+.social-follow span{
+    margin-right: 0.5rem;
+}
+.social-follow span i{
+    margin-right: 0.2rem;
+}
