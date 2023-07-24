@@ -26,6 +26,7 @@
 .container form input{
     padding: 1rem;
     outline:none;
+    color:white;
     border:none;
     border-radius: 8px;
     background:rgba(0,0,0,0.1);
